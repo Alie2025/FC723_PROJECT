@@ -1,7 +1,7 @@
 """
 ================================================================
   Apache Airlines — Burak757 Seat Booking System
-  FC723 Programming Theory  |  Project Part B
+  FC723 Programming Theory  |  Project Part 2000
 ================================================================
  
 PURPOSE:
