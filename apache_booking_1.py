@@ -55,15 +55,14 @@ CLASSES:
 ================================================================
 """
  
-import random   # used to pick random characters for references
+import random   # pick random characters for references
 import string   # provides the A-Z letters and 0-9 digits
-import sqlite3  # built-in Python module for local SQL databases
+import sqlite3  # built in Python module for local SQL databases
  
  
-# ================================================================
 #  CLASS 1 — Database
 #  Creates and manages the SQLite bookings database
-# ================================================================
+
 class Database:
     """
     Manages all interactions with the SQLite file 'bookings.db'.
