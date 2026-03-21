@@ -167,10 +167,9 @@ class Database:
         self.connection.close()
  
  
-# ================================================================
+
 #  CLASS 2 — SeatMap
 #  Stores and manages the Burak757 cabin seating grid
-# ================================================================
 class SeatMap:
     """
     Represents the physical Burak757 aircraft cabin as a 2-D list.
@@ -266,10 +265,8 @@ class SeatMap:
         print()
  
  
-# ================================================================
 #  CLASS 3 — ReferenceGenerator
 #  Part B Task 1: Unique 8-character alphanumeric references
-# ================================================================
 class ReferenceGenerator:
     """
     Generates random, unique 8-character alphanumeric booking
@@ -337,10 +334,8 @@ class ReferenceGenerator:
             # If we reach here it was a duplicate — loop again
  
  
-# ================================================================
 #  CLASS 4 — BookingSystem
 #  Part B Task 2: All booking operations with database support
-# ================================================================
 class BookingSystem:
     """
     The central controller that links SeatMap, Database, and
@@ -665,10 +660,8 @@ class BookingSystem:
         self.db.close()
  
  
-# ================================================================
 #  CLASS 5 — Menu
 #  Displays the menu and routes user choices to BookingSystem
-# ================================================================
 class Menu:
     """
     Manages the user interface for the Part B program.
@@ -745,9 +738,7 @@ class Menu:
                 print("\n  ✗  Please enter a number from 1 to 7.")
  
  
-# ================================================================
 #  PROGRAM ENTRY POINT
-# ================================================================
 if __name__ == "__main__":
     app = Menu()
     app.run()
